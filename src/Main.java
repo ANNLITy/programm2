@@ -36,6 +36,7 @@ public class Main {
         return sum;
     }
 
+
     public static Employee findEmployeeWithMinSalary() {
         Employee result = employees[0];
         int minSalary = employees[0].getSalary();
